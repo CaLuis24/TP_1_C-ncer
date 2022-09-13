@@ -1,2 +1,2 @@
-# Tipos de cáncer  
 ## Qué es el cáncer  
+# Tipos de cáncer  
