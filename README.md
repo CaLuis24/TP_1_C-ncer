@@ -10,19 +10,6 @@ Todo esto se realizará con la ayuda de imágenes satelitales (Landsat 8) y con 
 ### Metodología.
  Por medio de la plataforma de Google Earth Engine, el uso de imágenes satelitales y un lenguaje de JavaScript se realizaron procesos geoespaciales para lograr realizar un análisis de las imágenes en el distrito de riego Arenal-Tempisque. Durante esta fase del procesamiento: creación del polígono de la región de riego, en el cual se iba utilizar (importar) la colección de imágenes de Servicio Geológico de Estados Unidos (USGS) Landsat 8 Collection 1 Tier 1 calibrated top-of-atmosphere (TOA) reflectance, entre los años 2018 y 2021 en periodos de 2 meses y en algunos casos de 1 mes, en la estación seca y lluviosa. Esta colección de imágenes cuenta con alrededor de 11 bandas que van desde una resolución de 30 y unas de 15 metros y con longitud de ondas desde 0.43 - 12.51 µm, y con una frecuencia de aproximadamente 16 días (Tabla 1).  
  
- | Banda                      |   Espacial(m)   |   Espectral(µm)   |  
- | --------                   |    --------     |          -------- |   
- | B1 - Aerosol               |        30       |  0.43 - 0.45 µm   |  
- | B2 – Azul	                 |        30	      |  0.45 - 0.51 µm   |  
- | B3 - Verde	                |        30       |  0.53 - 0.59 µm   |  
- | B4 – Rojo                  |     	  30       | 	0.64 – 0.67 µm   |  
- | B5 – NIR	                  |        30     	 |  0.85 – 0.88 µm   |  
- | B6 – NIR 1                 |     	  30       |	 1.57 – 1.65 µm   |  
- | B7 – NIR 2                 |	       30       |  2.11 – 2.29 µm   |  
- | B8 - Pancromática         	|        15       |	 0.52 – 0.90 µm   |  
- | B9 - Cirrus	               |        15	      |  1.36 – 138 µm    |  
- | B10 – Infrarrojo térmico 1	|        30       |	 10.60 – 11.19 µm |    
- | B11 – Infrarrojo térmico 2 |	       30	      |  11.50 – 12.51 µm |  
  
 _Fuente: elaboración propia (2022)._
  
