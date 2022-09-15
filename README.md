@@ -6,6 +6,7 @@ Todo esto se realizará con la ayuda de imágenes satelitales (Landsat 8) y con 
 ### Metodología.
  Por medio de la plataforma de Google Earth Engine, el uso de imágenes satelitales y un lenguaje de JavaScript se realizaron procesos geoespaciales para lograr realizar un análisis de las imágenes en el distrito de riego Arenal-Tempisque. Durante esta fase del procesamiento: creación del polígono de la región de riego, en el cual se iba utilizar (importar) la colección de imágenes de Servicio Geológico de Estados Unidos (USGS) Landsat 8 Collection 1 Tier 1 calibrated top-of-atmosphere (TOA) reflectance, entre los años 2018 y 2021 en periodos de 2 meses y en algunos casos de 1 mes, en la estación seca y lluviosa. Esta colección de imágenes cuenta con alrededor de 11 bandas que van desde una resolución de 30 y unas de 15 metros y con longitud de ondas desde 0.43 - 12.51 µm, y con una frecuencia de aproximadamente 16 días (Tabla 1).  
  
+ |           |               Resolución            |
  | **Banda** | **Espacial(m)** | **Espectral(µm)** |
  | :---      |       :----:    |              ---: |  
  
