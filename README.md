@@ -30,7 +30,7 @@ Con este flujo de trabajo, y los diferentes índices empleados en las imágenes 
 ![Espectro visible por el ojo humano](Banda.jpg "Imagen de las bandas multiespectrales")  
 
 ## Materiales utlizados:
-* Google Earth Engine  
+* [Google Earth Engine](https://code.earthengine.google.com/)  
 * Imágenes Landsat 8 Collection 1 Tier 1 TOA  
 * Recursos vistos en curso de Fotogrametría y teledetección  
 * Recursos Web
